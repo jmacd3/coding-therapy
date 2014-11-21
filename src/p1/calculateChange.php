@@ -1,5 +1,9 @@
 <?php
-// Processs cmd line args
+
+define('ROOT', dirname(dirname(dirname(__FILE__))));
+require_once ROOT . '/vendor/autoload.php';
+
+
 if (!isset($argv[1], $argv[2])) {
     echo 'Invalid params... '. PHP_EOL;
     echo "\t usage: php calculateChange {amountDue} {payment};" . PHP_EOL;
