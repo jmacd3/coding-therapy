@@ -24,5 +24,8 @@ $currency = [
  'value' => 1],
 ['name' => 'penny',
 'value' => .01]
-] etc;
+] etc ...;
 ```
+If no file is present, default to US denominations.
+
+If it is not possible to completely make change with the given denominations show how much change you can make and how much is left over.
