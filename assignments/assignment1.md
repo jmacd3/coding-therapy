@@ -15,7 +15,7 @@ Quarter: 3
 
 ## Part 2 Dynamic Denominations
 
-The program should now accept an optional config (-c, --config) parameter a file path, which, if present, contains a path to a file defining a PHP array which specifies the denominations present in the currency with their values and names. For instance, a file representing US currency would look like this:
+The program should now accept an optional config (-c, --config) parameter which allows the user to specify a config file path, which, if present, contains a path to a file defining a PHP array which specifies the denominations present in the currency with their values and names. For instance, a file representing US currency would look like this:
 
 ```php
 #denominations.php
