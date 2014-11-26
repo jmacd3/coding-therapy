@@ -13,6 +13,14 @@
         "raveren/kint": "dev-1.0.0-wip"
 
 
+    },
+
+    "autoload": {
+        "psr-4": {
+            "CodingTherapy\\ChangeMaker\\": "src/p1.2",
+            "CodingTherapy\\": "src/"
+
+        }
     }
 
 
