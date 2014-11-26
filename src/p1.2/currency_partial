@@ -1,0 +1,33 @@
+<?php
+
+// US Currency (Defualt config)
+return [
+    [
+        'name'  => 'One dollar',
+        'value' => 1
+    ],
+    [
+        'name'  => 'Five dollars',
+        'value' => 5
+    ],
+    [
+        'name'  => 'Ten dollars',
+        'value' => 10
+    ],
+    [
+        'name'  => 'Twenty dollars',
+        'value' => 20
+    ],
+    [
+        'name'  => 'Nickel',
+        'value' => .05
+    ],
+    [
+        'name'  => 'Dime',
+        'value' => .10
+    ],
+    [
+        'name'  => 'Quarter',
+        'value' => .25
+    ]
+];
