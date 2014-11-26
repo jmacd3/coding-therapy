@@ -101,7 +101,7 @@ foreach($currencyContainer as $currencyUnit) {
 $remainder = intval($dollarDelta) + $changeDelta;
 
 if ($remainder > 0) {
-    echo 'Unable to provide sufficiet change with currency config.' . PHP_EOL;
+    echo 'Unable to provide sufficient change with currency config.' . PHP_EOL;
     echo 'Remainder: ' . $remainder . PHP_EOL;
 }
 
